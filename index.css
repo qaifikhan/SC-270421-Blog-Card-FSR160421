@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    margin: 0;    
+    font-family: 'Poppins', sans-serif;
+}
+
+#topbar {
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px #ccc;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu-items {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 16px;
+}
+
+/* #about-menu {
+    color: red;
+} */
+
+#main-heading {
+    width: 500px;
+    text-shadow: 2px 2px 3px blue;
+    box-shadow: 8px 16px 12px red;
+}
+
+#btn-wrapper {
+    margin-top: 100px;
+    background-color: #2ECB70;
+}
+
+#btn-login {
+    margin: 100px;
+    background-color: #2ECB70;
+    border: 2px solid white;
+    padding: 12px 50px;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#btn-login:hover {
+    background-color: white;
+    color: #2ECB70;
+}
+
+.login-icon {
+    padding-right: 16px;
+}
+
+.video-card {
+    width: 25%;
+    box-shadow: 0 0 8px #ccc;
+    margin: 24px;
+    border-radius: 6px;
+}
+
+.img-wrapper { 
+    margin: 0;
+}
+
+.thumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.video-title {
+    margin: 0;
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BLOG CARD STYLES START */
+
+#blog-grid {
+    margin: 100px;
+}
+
+.thumbnail-wrapper {
+    margin: 0;
+}
+
+.blog-desc {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.blog-thumbnail {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.meta-wrapper {
+    padding: 16px;
+}
+
+.blog-title {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.channel-info-wrapper {
+    margin: 8px 0;
+}
+
+.blog-card {
+    width: 28%;
+    border: 0.5px solid #0096ff;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #ccc;
+}
+
+.channel-name {
+    color: #0096ff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+/* BLOG CARD STYLES END */
